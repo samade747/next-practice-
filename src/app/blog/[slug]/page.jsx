@@ -1,8 +1,7 @@
 
 
-
-const singlepostpage = () => {
+const singlePostpage = () => {
     return <div>single post page</div>;
   };
   
-  export default singlepostpage;
+  export default singlePostpage;
