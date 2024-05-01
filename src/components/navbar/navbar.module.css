@@ -1,5 +1,14 @@
 .container{
     background-color: rgb(15, 15, 95);
-    
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
 
 }
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+} 
