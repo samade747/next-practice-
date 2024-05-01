@@ -1,0 +1,41 @@
+:root{
+    --bg: #0d0c22;
+    --bgSof: #2d2b42;
+    --textSoft: #e5e5e5;
+    --text: white;
+    --btn: #3673fd;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: 'Inter', sans-serif;    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+.container{
+    background-color: rebeccapurple;
+    width: 1536px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100px;
+}
+
+
+

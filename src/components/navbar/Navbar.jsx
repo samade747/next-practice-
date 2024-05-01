@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Links from "./links/Links";
 
 const Navbar = () => {
 
@@ -6,10 +7,7 @@ const Navbar = () => {
         <div>
             <div>Logo</div>
             <div>
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/blog">Blog</Link>
-                <Link href="/contact">Contact</Link>
+                <Links />
             </div>
         </div>
     )
