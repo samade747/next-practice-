@@ -3,14 +3,33 @@ import styles from "./page.module.css";
 
 
 const Home = () => {
-  // throw new Error("This is an error");
-  return 
-  <div className={styles.conatiner}>
+
+  return (
+  <div className={styles.conatiner}>    
+    <div className={styles.textConatiner}>
+        <h1> Creatve Thoughts Agency</h1>
     
-    Homepage
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam nesciunt nam porro accusantium, repellendus in ea deserunt, non soluta unde beatae illo? Iure magnam autem quae delectus architecto dolorum?
+         Id molestias placeat voluptas dolores, reprehenderit ipsam delectus error nulla consequatur, sint modi culpa quibusdam ipsum accusamus beatae iusto est, animi libero. Aspernatur debitis eos ipsa odit suscipit at molestiae.</p>
+
+       <div className={styles.buttons}>
+          <button className={styles.button} >Learn More</button>
+          <button className={styles.button}>Contact</button>
+      </div>
+
+    </div>
+
+
+
+
+    <div className={styles.imageConatiner}>
+
+    </div>
     
     
-    </div>;
+    </div>
+  )
 };
 
 export default Home;
