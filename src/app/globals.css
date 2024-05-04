@@ -16,8 +16,8 @@
 
 
 body{
-    background-color: rgb(15, 15, 15);
-    color: white;
+    /* background-color: rgb(15, 15, 15); */
+    color: rgb(237, 199, 199);
     font-family: 'Inter', sans-serif;    
 }
 
@@ -29,7 +29,7 @@ a{
 
 
 .container{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     width: 1536px;
     margin: auto;
     padding-left: 50px;
@@ -41,5 +41,78 @@ a{
 
 }
 
+@media (max-width: 1536px) {
+
+    .container{
+        width: 1366px;
+    }
+    
+}
 
 
+@media (max-width: 1280px) {
+
+    .container{
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .container{
+        width: 768px;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .container{
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .container{
+        width: 470px;
+    }
+}
+
+
+
+@media (max-width: 470px) {
+
+    .container{
+        width: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .container{
+        width: 280px;
+    }
+}
+
+
+@media (max-width: 280px)  {
+
+    .container{
+        width: 240px;
+    }
+}
+
+@media (max-width: 180px)  {
+
+    .container{
+        width: 140px;
+    }
+}

@@ -39,7 +39,7 @@
         width: 50%;
         height: calc(100vh - 100px);
         /* background-color: var(--bg); */
-        background-color: blue;
+        background-color: rgb(70, 70, 92);
         display: flex;
         flex-direction: column;
         align-items: center;
