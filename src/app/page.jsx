@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./page.module.css";
+import styles from "./home.module.css";
 
 
 const Home = () => {
@@ -18,17 +18,22 @@ const Home = () => {
           <button className={styles.button}>Contact</button>
       </div>
 
+      <div className={styles.brands}>
+          <Image src="/brands.png" alt="Snow Capped Mountain" fill className={styles.branding}   />          
+      </div>
+
     </div>
 
 
 
 
     <div className={styles.imageConatiner}>
-
+        <Image src="hero.png" alt="Snow Capped Mountain" fill className={styles.heroImg}   />
     </div>
     
     
     </div>
+    // 11010
   )
 };
 

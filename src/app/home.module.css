@@ -1,10 +1,29 @@
 .container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 100px;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(15, 15, 95);
+    /* background-color: rgb(15, 15, 95); */
+
+}
+
+
+.textContainer{
+    flex: 1;
+
+}
+
+.brands{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    filter: grayscale(1);
+}
+
+
+
+.imgContainer{
+    flex: 1;
+    position: relative;
 
 }
