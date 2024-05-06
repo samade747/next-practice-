@@ -1,7 +1,15 @@
+import styles from './footer.module.css'
+
 const Footer = () => {
 
     return (
-        <div>Footer</div>
+        <div className={styles.container}>
+            <div className={styles.logo}>
+               <div className={styles.text}>
+                    Sam@d All Rights Reserved
+               </div>
+            </div>
+        </div>
     )
 }
 
