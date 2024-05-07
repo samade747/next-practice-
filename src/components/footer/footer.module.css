@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    color: gray;
+    padding: 0 50px;
+    background-color: darkgray;
+}
+
+.logo{
+    font-weight: bold;
+}
+
+.text{
+    font-size: 14px;
+}
