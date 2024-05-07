@@ -4,11 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 50px;
+    gap: 20px;
 
 }
 
 .logo{
+    gap: 10px;
     font-size: 30px;
     font-weight: bold;
 } 
