@@ -1,23 +1,40 @@
-
-
-
 import Image from "next/image";
 import styles from "./about.module.css"
 
 
 const Aboutpage = () => {
-    return <div>
-      <div className={styles.Container}>
-      <Image 
-      
-      src="https://media.licdn.com/dms/image/D4D35AQFsUIczF4QArg/profile-framedphoto-shrink_200_200/0/1710429134380?e=1715443200&v=beta&t=0I9n3WLwkiY03PtEe4bWvrYHjnzDAp7tYAJGSE2BrcI" // Local image path relative to the 'public' directory
-                alt="Snow Capped Mountain" 
-                width={600} // Provide the width property
-                height={400} // Provide the height property
-                 />
-      </div>
-       
-      </div>;
+    return (
+    <div className={styles.container}>
+      <div className={styles.textContainer}>
+        <h2>About Agency</h2>
+        <h1>we create digital ideas thath are bigger, bolder, braver and better</h1>     
+     
+      <p>
+        we create digital ideas thath are bigger, bolder, braver and better
+        belive in our clients. we create digital ideas thath are bigger, bolder, braver and better
+      </p>
+
+      <div className={styles.boxes}>
+        <div className={styles.box}>
+          <h1>10 k+</h1>
+          <p>year of experience</p>        
+        </div>      
+      </div>  
+
+
+
+    </div> 
+
+    <div className={styles.imgContainer}>
+      <Image
+        src="/about.png"
+        alt="about Image"
+        fill      
+      />
+    </div>
+
+  </div>
+      )
   };
   
   export default Aboutpage;
