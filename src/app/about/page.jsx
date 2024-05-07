@@ -29,7 +29,7 @@ const Aboutpage = () => {
       <Image
         src="/about.png"
         alt="about Image"
-        fill      
+        width={500} height={400}
       />
     </div>
 

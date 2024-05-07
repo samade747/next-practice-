@@ -27,7 +27,7 @@ const Home = () => {
 
 
       <div className={styles.imgContainer}>
-        <Image src="/a.png" width={200} height={200} alt="Snow Capped Mountain" className={styles.heroImg} />
+        <Image src="/a.png" width={450} height={500} alt="Snow Capped Mountain" className={styles.heroImg} />
       </div>
     </div>
   );
