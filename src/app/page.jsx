@@ -6,9 +6,9 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1 className={styles.title}>Creative Thoughts Agency</h1>
-        <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam nesciunt nam porro accusantium, repellendus in ea deserunt, non soluta unde beatae illo? Iure magnam autem quae delectus architecto dolorum? Id molestias placeat voluptas dolores, reprehenderit ipsam delectus error nulla consequatur, sint modi culpa quibusdam ipsum accusamus beatae iusto est, animi libero. Aspernatur debitis eos ipsa odit suscipit at molestiae.
+        <h1 className={styles.subtitle}>Creative Thoughts Agency</h1>
+        <p className={styles.title}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam nesciunt nam porro accusantium, 
         </p>
         <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>

@@ -18,7 +18,20 @@ const Aboutpage = () => {
         <div className={styles.box}>
           <h1>10 k+</h1>
           <p>year of experience</p>        
-        </div>      
+        </div>  
+
+
+        <div className={styles.box}>
+          <h1>10 k+</h1>
+          <p>year of experience</p>        
+        </div>  
+
+
+        <div className={styles.box}>
+          <h1>10 k+</h1>
+          <p>year of experience</p>        
+        </div>  
+
       </div>  
 
 
@@ -30,6 +43,7 @@ const Aboutpage = () => {
         src="/about.png"
         alt="about Image"
         width={500} height={400}
+        className={styles.img}
       />
     </div>
 
