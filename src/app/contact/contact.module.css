@@ -37,13 +37,23 @@
 .form textarea{
     padding: 20px;
     border-radius: 5px;
-    border: none;
+    margin: 10px;
     font-size: 16px;
     outline: none;
     background-color: var(--bgSoft);
     color: var(--text);
 }
 
+
+.form button{
+    padding: 20px;
+    background-color: var(--btn);
+    color:  var(--text);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
 
 
 

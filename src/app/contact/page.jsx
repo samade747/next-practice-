@@ -1,11 +1,11 @@
 import styles from "./contact.module.css"
-
+import Image from "next/image";
 
 const contactpage = () => {
     return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/contact" fill className={styles.contactImg} />
+        <Image src="/contact.jpg" fill className={styles.contactImg} />
 
       </div>
         <div className={styles.formContainer}>
