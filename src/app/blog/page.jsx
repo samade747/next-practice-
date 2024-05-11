@@ -1,8 +1,24 @@
 
 
 
-const blogpage = () => {
-    return <div>blog page</div>;
+const Blogpage = () => {
+    return (
+
+      <div className="container">
+        
+        
+        
+        blog page
+        
+        
+        
+        </div>
+
+
+
+
+    )    
+    
   };
   
-  export default blogpage;
+  export default Blogpage;
