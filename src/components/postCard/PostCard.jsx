@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import styles from './PostCard.module.css'
+import Link from 'next/link'
 
 const PostCard = () => {
     return(
@@ -11,7 +13,7 @@ const PostCard = () => {
             </div>
             <div className={styles.bottom}>
             <h1 className={styles.title}>Title</h1>
-            <p className={styles.desc}>Desc</p>
+            <p className={styles.desc}>lorem ipsum</p>
             <Link href="/blog/post" >READ MORE</Link>
         </div>
         </div>

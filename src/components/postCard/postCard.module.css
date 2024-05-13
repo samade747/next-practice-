@@ -29,5 +29,23 @@
 .date{
     font-size: 12px;
     transform: rotate(270deg);
+    margin: auto;
 }
+
+.title{
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.desc{
+    width: 90%;
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: gray;
+    
+}
+
 
