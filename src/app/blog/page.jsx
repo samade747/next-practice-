@@ -6,11 +6,23 @@ const Blogpage = () => {
     return (
 
       <div className={styles.container}>
-        <PostCard />
-        <PostCard />
-        <PostCard />
-        <PostCard />
+
+        <div className={styles.post}>
+          <PostCard />
+        </div>
         
+        <div className={styles.post}>
+          <PostCard />
+        </div>
+
+        <div className={styles.post}>
+          <PostCard />
+        </div>
+
+        <div className={styles.post}>
+          <PostCard />
+        </div>
+    
         
        
         

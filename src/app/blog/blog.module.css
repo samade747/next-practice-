@@ -1,5 +1,10 @@
 .container{
-    display: flex;  
-    gap: 100px; 
-    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
 }
+
+
+
+
