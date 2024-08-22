@@ -18,9 +18,6 @@ const Home = () => {
         <div className={styles.brands}>
           <Image src="/mern.png" alt="Snow Capped Mountain" fill className={styles.brands}   />          
        </div>
-
-
-
       </div>
 
 
