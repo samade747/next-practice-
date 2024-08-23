@@ -7,8 +7,7 @@ const Aboutpage = () => {
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h2>About Agency</h2>
-        <h1>we create digital ideas thath are bigger, bolder, braver and better</h1>     
-     
+        <h1 className="">we create digital ideas thath are bigger, bolder, braver and better</h1>          
       <p>
         we create digital ideas thath are bigger, bolder, braver and better
         belive in our clients. we create digital ideas thath are bigger, bolder, braver and better

@@ -20,9 +20,6 @@ const Home = () => {
        </div>
       </div>
 
-
-
-
       <div className={styles.imgContainer}>
         <Image src="/a.png" width={450} height={500} alt="Snow Capped Mountain" className={styles.heroImg} />
       </div>
