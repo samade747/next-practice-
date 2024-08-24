@@ -3,6 +3,7 @@
 
 const SinglePostpage = () =>{
     return (
-        
+        <>
+        </>
     )
 }
