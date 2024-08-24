@@ -13,11 +13,9 @@ const contactpage = () => {
           <input type="text" placeholder="Name and surename" />
           <input type="text" placeholder="email address" />
           <input type="text" placeholder="phone number (optional)" />
-          <textarea placeholder="Message" cols="30" rows="10" id='' type="text">
-            </textarea>
-        </form>
-        <button>Send</button>
-        
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message"> </textarea>
+          <button>Send</button>
+        </form>               
       </div>
     </div>
     )
