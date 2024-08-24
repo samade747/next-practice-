@@ -1,27 +1,26 @@
-.container{
-    display: flex; 
+.container {
+    display: flex;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-.imgContainer{
+/* Image container styling */
+.imgContainer {
     flex: 1;
     position: relative;
     height: 500px;
-
 }
 
-.formContainer{
-    flex: 1;
-    
-}
-
-.contactImg{
+/* Image styling */
+.contactImg {
     object-fit: contain;
 }
 
-
-.formContainer{
+/* Form container styling */
+.formContainer {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -30,30 +29,44 @@
     width: 60%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
 }
 
+/* Input and Textarea styling */
 .form input,
-.form textarea{
+.form textarea {
     padding: 20px;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px 0;
     font-size: 16px;
     outline: none;
     background-color: var(--bgSoft);
     color: black;
+    border: 1px solid #ccc; /* Adds a border to inputs */
 }
 
-
-.form button{
+/* Button styling */
+.form button {
     padding: 20px;
     background-color: var(--btn);
-    color:  var(--text);
+    color: var(--text);
     font-weight: bold;
     border: none;
     cursor: pointer;
-
+    border-radius: 5px; /* Adds rounded corners to the button */
 }
 
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .formContainer {
+        width: 100%;
+    }
 
+    .imgContainer {
+        height: 300px;
+    }
+}

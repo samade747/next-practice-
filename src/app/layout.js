@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <div className='container'>
       <Navbar />
-      <h1>this is the main Layout</h1>
+      {/* <h1>Specializing in the MERN Stack</h1> */}
 
       {children}
       <Footer /> 

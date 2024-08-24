@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h1 className={styles.subtitle}>Creative Thoughts Agency</h1>
+        <h1 className={styles.subtitle}>I'm Samad</h1>
 
         <div className="absolute -bottom-[50%] left-[36%] z-10">
           <span className="opacity-40">
@@ -19,7 +19,10 @@ const Home = () => {
         
 
         <p className={styles.title}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam nesciunt nam porro accusantium, 
+        A Dynamic Mern Stack Developer
+        </p>
+        <p className={styles.title2}>
+        a passionate Full Stack Developer transforming ideas into immersive web experiences. With 0.6+ years of experience, I blend functionality with a touch of brilliance.
         </p>
         <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>
