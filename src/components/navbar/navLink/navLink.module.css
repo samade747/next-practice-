@@ -8,6 +8,6 @@
 }
 
 .active{
-    background-color: var(--textSoft);
+    background-color: blueviolet;
     color: white;
 }

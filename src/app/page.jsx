@@ -1,12 +1,23 @@
 import React from "react";
 import styles from "./home.module.css";
 import Image from 'next/image';
+import PurpleShine from "../components/purpleshine/PurpleShine";
+
 
 const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
         <h1 className={styles.subtitle}>Creative Thoughts Agency</h1>
+
+        <div className="absolute -bottom-[50%] left-[36%] z-10">
+          <span className="opacity-40">
+            <PurpleShine />
+          </span>
+          <PurpleShine />
+        </div>
+        
+
         <p className={styles.title}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam nesciunt nam porro accusantium, 
         </p>

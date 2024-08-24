@@ -13,8 +13,8 @@ const PostCard = () => {
             </div>
             <div className={styles.bottom}>
             <h1 className={styles.title}>Title</h1>
-            <p className={styles.desc}>lorem ipsum</p>
-            <Link className={styles.link} >READ MORE</Link>
+            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita r</p>
+            <Link href={"/"} className={styles.link} >READ MORE</Link>
         </div>
         </div>
     )
